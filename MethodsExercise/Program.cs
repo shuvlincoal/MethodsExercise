@@ -34,7 +34,7 @@
         }
 
 
-        static void Main(string[] args)
+        public static void GreetingMsg()
         {
             Console.WriteLine("What is your name?: ");
             string userName = Console.ReadLine();
@@ -57,6 +57,13 @@
 
             int fooInt = Program.Multiply(4, 5);
             Console.WriteLine($"Product of nbr1 and nbr2 is {fooInt}");
+        }
+
+
+
+        public static void Main(string[] args)
+        {
+            GreetingMsg();
 
         }
 
