@@ -52,18 +52,21 @@
             Console.WriteLine($" while riding a {favAnimal} listening");
             Console.WriteLine($"to {favBand}");
 
-            int blahInt = Program.Add(4, 5);
-            Console.WriteLine($"Sum of nbr1 and nbr2 is {blahInt}");
 
-            int fooInt = Program.Multiply(4, 5);
-            Console.WriteLine($"Product of nbr1 and nbr2 is {fooInt}");
         }
 
 
 
         public static void Main(string[] args)
         {
-            GreetingMsg();
+            Program.GreetingMsg();
+
+            int blahInt = Program.Add(4, 5);
+            Console.WriteLine($"Sum of nbr1 and nbr2 is {blahInt}");
+
+            int fooInt = Program.Multiply(4, 5);
+            Console.WriteLine($"Product of nbr1 and nbr2 is {fooInt}");
+
 
         }
 
