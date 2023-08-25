@@ -2,17 +2,7 @@
 {
     public class Program
     {
-        //public static int Add(int nbr1, int nbr2)
-        //{
-        //    int sumNbrs = nbr1 + nbr2;
-        //    return sumNbrs;
-        //}
-
-        //public static int Multiply(int nbr1, int nbr2)
-        //{
-        //    int prodNbrs = nbr1 * nbr2;
-        //    return prodNbrs;
-        //}
+ 
         public static int Add(params int[] numbers)
         {
             int sumNbrs = 0;
