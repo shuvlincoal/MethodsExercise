@@ -1,5 +1,6 @@
 ﻿namespace MethodsExercise
 {
+
     public class Bogon
     {
         public static void UserInquiry()
@@ -22,8 +23,9 @@
         }//End UserInquiry
     }//End Bogon
 
-        public class MathLib
-        {
+
+    public class MathLib
+    {
             public static int Add(params int[] numbers)
             {
                 int sumNbrs = 0;
@@ -41,21 +43,27 @@
                 {
                     prodNbrs = prodNbrs * num;
                 }
-                return prodNbrs;
+                return prodNbrs; 
             }
-        }//End MathLib
+     }//End MathLib
+
+
 
     public class Program
     {
         public static void Main(string[] args)
         {
-            Bogon.UserInquiry();
-            
             int blahInt = MathLib.Add(4, 5);
             Console.WriteLine($"Sum of nbr1 and nbr2 is {blahInt}");
 
             int fooInt = MathLib.Multiply(4, 5);
             Console.WriteLine($"Product of nbr1 and nbr2 is {fooInt}");
+
+            Bogon.UserInquiry();
+
+
         }
     }//End Class Program
+
+
 }//End Namespace MethodsExercise
