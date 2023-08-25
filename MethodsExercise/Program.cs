@@ -1,6 +1,5 @@
 ﻿namespace MethodsExercise
 {
-
     public class Bogon
     {
         public static void UserInquiry()
@@ -22,7 +21,6 @@
             Console.WriteLine($"to {favBand}");
         }//End UserInquiry
     }//End Bogon
-
 
         public class MathLib
         {
@@ -47,10 +45,8 @@
             }
         }//End MathLib
 
-    
     public class Program
     {
-
         public static void Main(string[] args)
         {
             Bogon.UserInquiry();
@@ -61,8 +57,5 @@
             int fooInt = MathLib.Multiply(4, 5);
             Console.WriteLine($"Product of nbr1 and nbr2 is {fooInt}");
         }
-
-
-
     }//End Class Program
 }//End Namespace MethodsExercise
