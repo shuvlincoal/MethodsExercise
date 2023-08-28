@@ -41,20 +41,20 @@
                    return num1 - num2;
                 }
 
-        public static int Multiply(params int[] numbers)
-            {
-                int prodNbrs = 1;
-                foreach (int num in numbers)
+            public static int Multiply(params int[] numbers)
                 {
-                    prodNbrs = prodNbrs * num;
-                }
-                return prodNbrs; 
+                    int prodNbrs = 1;
+                    foreach (int num in numbers)
+                    {
+                       prodNbrs = prodNbrs * num;
+                    }
+                    return prodNbrs; 
             }
 
-        public static int Divide(int num1, int num2)
-        {
-            return num1 / num2;
-        }
+            public static int Divide(int num1, int num2)
+            {
+               return num1 / num2;
+            }
     }//End MathLib
 
 
